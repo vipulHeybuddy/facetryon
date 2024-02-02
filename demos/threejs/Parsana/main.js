@@ -21,7 +21,7 @@ function init_threeScene(spec) {
     (geometry) => {
       const mat = new THREE.MeshBasicMaterial({
         // DEBUG: uncomment color, comment map and alphaMap
-        map: new THREE.TextureLoader().load('./models/football_makeup/texture.png'),
+        map: new THREE.TextureLoader().load('./models/football_makeup/texture1.png'),
         alphaMap: new THREE.TextureLoader().load('./models/football_makeup/alpha_map_256.png'),
         transparent: true,
         opacity: 0.6
